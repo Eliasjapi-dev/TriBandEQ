@@ -37,30 +37,27 @@ A short demo of the prototype in operation is included here:
 
 ## 🖼 Project Images (Gallery)
 
-> If an image does not render, check the exact filename below. Paths are URL‑encoded so that spaces and symbols (like `%`) work in GitHub.
+To keep the gallery tidy across desktop and mobile, images are displayed in a 3‑column grid with a fixed **height** (preserving aspect ratio). Captions sit under each image.
 
-<p align="center">
-  <!-- Schematic + Hardware -->
-  <img src="docs/figures/Figure%2011%20Graphic%20equalizer%20schematic%20diagram.png" alt="Figure 11 — Schematic diagram of the graphic equalizer" width="31%"/>
-  <img src="docs/figures/Figure%2017%20Physical%20implementation%20of%20the%20graphic%20equalizer.jpg" alt="Figure 17 — Physical implementation on breadboard" width="31%"/>
-  <img src="docs/figures/Figure%2018%20Physical%20circuit%20of%20the%20graphic%20equalizer.jpg" alt="Figure 18 — Circuit close‑up" width="31%"/>
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="docs/figures/Figure%2011%20Graphic%20equalizer%20schematic%20diagram.png" alt="Figure 11 — Schematic diagram of the graphic equalizer" height="180"/><br><sub><b>Figure 11</b> — Schematic</sub></td>
+    <td align="center"><img src="docs/figures/Figure%2017%20Physical%20implementation%20of%20the%20graphic%20equalizer.jpg" alt="Figure 17 — Physical implementation on breadboard" height="180"/><br><sub><b>Figure 17</b> — Breadboard setup</sub></td>
+    <td align="center"><img src="docs/figures/Figure 18 Physical circuit of the graphic equalizer.jpg" alt="Figure 18 — Circuit close‑up (landscape)" height="180"/><br><sub><b>Figure 18</b> — Circuit close‑up</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/figures/Figure 9 Bode graph for the full filtered block of the graphic equalizer.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" height="180"/><br><sub><b>Figure 9</b> — All bands (combined)</sub></td>
+    <td align="center"><img src="docs/figures/Figure%2012%20Bode%20graph%20with%20R_2%200%25.png" alt="Figure 12 — Bode with R2 at 0%" height="180"/><br><sub><b>Figure 12</b> — R2 = 0%</sub></td>
+    <td align="center"><img src="docs/figures/Figure 13 Bode graph with 100 R2.png" alt="Figure 13 — Bode with R2 at 100%" height="180"/><br><sub><b>Figure 13</b> — R2 = 100%</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/figures/Figure%2014%20Bode%20Graph%20for%20Low%20Frequency%20Attenuation.png" alt="Figure 14 — Low‑band attenuation" height="180"/><br><sub><b>Figure 14</b> — Low band only</sub></td>
+    <td align="center"><img src="docs/figures/Figure%2015%20Bode%20Graph%20for%20Mid%20Frequency%20Attenuation.png" alt="Figure 15 — Mid‑band attenuation" height="180"/><br><sub><b>Figure 15</b> — Mid band only</sub></td>
+    <td align="center"><img src="docs/figures/Figure%2016%20Bode%20Graph%20for%20High%20Frequency%20Attenuation.png" alt="Figure 16 — High‑band attenuation" height="180"/><br><sub><b>Figure 16</b> — High band only</sub></td>
+  </tr>
+</table>
 
-<p align="center">
-  <!-- Bode overview & R2 sweeps -->
-  <img src="docs/figures/Figure 9 Bode graph for the full filtered block of the graphic equalizer.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" width="31%"/>
-  <img src="docs/figures/Figure%2012%20Bode%20graph%20with%20R_2%200%25.png" alt="Figure 12 — Bode with R2 at 0%" width="31%"/>
-  <img src="docs/figures/Figure 13 Bode graph with 100 R2.png" alt="Figure 13 — Bode with R2 at 100%" width="31%"/>
-</p>
-
-<p align="center">
-  <!-- Per‑band attenuation views -->
-  <img src="docs/figures/Figure%2014%20Bode%20Graph%20for%20Low%20Frequency%20Attenuation.png" alt="Figure 14 — Low‑band attenuation" width="31%"/>
-  <img src="docs/figures/Figure%2015%20Bode%20Graph%20for%20Mid%20Frequency%20Attenuation.png" alt="Figure 15 — Mid‑band attenuation" width="31%"/>
-  <img src="docs/figures/Figure%2016%20Bode%20Graph%20for%20High%20Frequency%20Attenuation.png" alt="Figure 16 — High‑band attenuation" width="31%"/>
-</p>
-
-> **Tip:** Keep image widths at \~31% for a clean 3‑column grid on desktop while gracefully stacking on mobile.
+> **Rotate Figure 18:** Save a landscape copy as `docs/figures/`**`Figure 18 Physical circuit of the graphic equalizer_landscape.jpg`** (or update the path above to your preferred filename). Fixing height (180px) keeps the grid consistent without distorting aspect ratios.
 
 ---
 
