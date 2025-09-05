@@ -45,7 +45,7 @@ A short demo of the prototype in operation is included here:
     <td align="center"><img src="docs/figures/Figure 18 Physical circuit of the graphic equalizer.jpg" alt="Figure 18 — Circuit close‑up (landscape)" height="180"/><br><sub><b>Figure 18</b> — Circuit close‑up</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/figures/Figure 9 Bode graph for the full filtered block of the graphic equalizer.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" height="180"/><br><sub><b>Figure 9</b> — All bands (combined)</sub></td>
+    <td align="center"><img src="docs/figures/Figure 10 Graphic equalizer bode graphs.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" height="180"/><br><sub><b>Figure 9</b> — All bands (combined)</sub></td>
     <td align="center"><img src="docs/figures/Figure%2012%20Bode%20graph%20with%20R_2%200%25.png" alt="Figure 12 — Bode with R2 at 0%" height="180"/><br><sub><b>Figure 12</b> — R2 = 0%</sub></td>
     <td align="center"><img src="docs/figures/Figure 13 Bode graph with 100 R2.png" alt="Figure 13 — Bode with R2 at 100%" height="180"/><br><sub><b>Figure 13</b> — R2 = 100%</sub></td>
   </tr>
