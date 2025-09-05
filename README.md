@@ -37,7 +37,6 @@ A short demo of the prototype in operation is included here:
 
 ## 🖼 Project Images (Gallery)
 
-To keep the gallery tidy across desktop and mobile, images are displayed in a 3‑column grid with a fixed **height** (preserving aspect ratio). Captions sit under each image.
 
 <table>
   <tr>
@@ -56,8 +55,6 @@ To keep the gallery tidy across desktop and mobile, images are displayed in a 3�
     <td align="center"><img src="docs/figures/Figure%2016%20Bode%20Graph%20for%20High%20Frequency%20Attenuation.png" alt="Figure 16 — High‑band attenuation" height="180"/><br><sub><b>Figure 16</b> — High band only</sub></td>
   </tr>
 </table>
-
-> **Rotate Figure 18:** Save a landscape copy as `docs/figures/`**`Figure 18 Physical circuit of the graphic equalizer_landscape.jpg`** (or update the path above to your preferred filename). Fixing height (180px) keeps the grid consistent without distorting aspect ratios.
 
 ---
 
@@ -81,16 +78,13 @@ TriBandEQ/
 │  └─ video_demo/
 │     └─ TriBandEQ-Demo.mp4         ← demo video (place here)
 ├─ simulations/                      ← raw/processed data exported from Proteus
-├─ mathematica/
-│  └─ 3Practica5_ElectronicaAnalogica.nb
-├─ proteus/
-│  └─ Practica5_Ecualizador Grafico.pdsprj
+│  ├─ mathematica/
+│  │  └─ 3Practica5_ElectronicaAnalogica.nb
+│  └─ proteus/
+│     └─ Practica5_Ecualizador Grafico.pdsprj
 ├─ scripts/
-│  └─ plot_bode.py                   ← main plotting script
-└─ plot_bode.py                      ← (optional duplicate; prefer scripts/plot_bode.py)
+└─  └─ plot_bode.py                   ← main plotting script
 ```
-
-> If you keep **both** `plot_bode.py` at the repo root and in `scripts/`, use the one in `scripts/` and remove the root copy to avoid confusion.
 
 ---
 
