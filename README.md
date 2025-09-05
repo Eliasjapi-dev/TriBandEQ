@@ -164,18 +164,6 @@ For full derivations, design choices, and lab results, read the reports in `docs
 
 ---
 
-## 📜 License
-
-If you intend to make it open source, we recommend MIT:
-
-```
-MIT License — © 2024 <Your Name>
-```
-
-Place this text into a top‑level `LICENSE` file.
-
----
-
 ## 🙌 Acknowledgments
 
 * Course: Analog Electronics
