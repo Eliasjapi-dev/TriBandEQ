@@ -35,6 +35,35 @@ A short demo of the prototype in operation is included here:
 
 ---
 
+## 🖼 Project Images (Gallery)
+
+> If an image does not render, make sure the file name matches the path below, or run `scripts/plot_bode.py all --no-show` to (re)generate the Bode figures with the canonical names.
+
+<p align="center">
+  <!-- Schematic + Hardware -->
+  <img src="docs/figures/Figure_11_Schematic.png" alt="Figure 11 — Schematic diagram of the graphic equalizer" width="31%"/>
+  <img src="docs/figures/Figure_17_Physical_Implementation.jpg" alt="Figure 17 — Physical implementation on breadboard" width="31%"/>
+  <img src="docs/figures/Figure_18_Physical_Circuit_Closeup.jpg" alt="Figure 18 — Circuit close‑up" width="31%"/>
+</p>
+
+<p align="center">
+  <!-- Bode overview & R2 sweeps -->
+  <img src="docs/figures/Figure_09_Bode_AllBands.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" width="31%"/>
+  <img src="docs/figures/Figure_12_Bode_R2_0.png" alt="Figure 12 — Bode with R2 at 0%" width="31%"/>
+  <img src="docs/figures/Figure_13_Bode_R2_100.png" alt="Figure 13 — Bode with R2 at 100%" width="31%"/>
+</p>
+
+<p align="center">
+  <!-- Per‑band attenuation views -->
+  <img src="docs/figures/Figure_14_Bode_LowOnly.png" alt="Figure 14 — Low‑band attenuation" width="31%"/>
+  <img src="docs/figures/Figure_15_Bode_MidOnly.png" alt="Figure 15 — Mid‑band attenuation" width="31%"/>
+  <img src="docs/figures/Figure_16_Bode_HighOnly.png" alt="Figure 16 — High‑band attenuation" width="31%"/>
+</p>
+
+> **Tip:** Keep image widths at \~31% for a clean 3‑column grid on desktop while gracefully stacking on mobile.
+
+---
+
 ## 📦 Repository Structure
 
 ```
