@@ -37,27 +37,27 @@ A short demo of the prototype in operation is included here:
 
 ## 🖼 Project Images (Gallery)
 
-> If an image does not render, make sure the file name matches the path below, or run `scripts/plot_bode.py all --no-show` to (re)generate the Bode figures with the canonical names.
+> If an image does not render, check the exact filename below. Paths are URL‑encoded so that spaces and symbols (like `%`) work in GitHub.
 
 <p align="center">
   <!-- Schematic + Hardware -->
-  <img src="docs/figures/Figure_11_Schematic.png" alt="Figure 11 — Schematic diagram of the graphic equalizer" width="31%"/>
-  <img src="docs/figures/Figure_17_Physical_Implementation.jpg" alt="Figure 17 — Physical implementation on breadboard" width="31%"/>
-  <img src="docs/figures/Figure_18_Physical_Circuit_Closeup.jpg" alt="Figure 18 — Circuit close‑up" width="31%"/>
+  <img src="docs/figures/Figure%2011%20Graphic%20equalizer%20schematic%20diagram.png" alt="Figure 11 — Schematic diagram of the graphic equalizer" width="31%"/>
+  <img src="docs/figures/Figure%2017%20Physical%20implementation%20of%20the%20graphic%20equalizer.jpg" alt="Figure 17 — Physical implementation on breadboard" width="31%"/>
+  <img src="docs/figures/Figure%2018%20Physical%20circuit%20of%20the%20graphic%20equalizer.jpg" alt="Figure 18 — Circuit close‑up" width="31%"/>
 </p>
 
 <p align="center">
   <!-- Bode overview & R2 sweeps -->
-  <img src="docs/figures/Figure_09_Bode_AllBands.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" width="31%"/>
-  <img src="docs/figures/Figure_12_Bode_R2_0.png" alt="Figure 12 — Bode with R2 at 0%" width="31%"/>
-  <img src="docs/figures/Figure_13_Bode_R2_100.png" alt="Figure 13 — Bode with R2 at 100%" width="31%"/>
+  <img src="docs/figures/Figure 9 Bode graph for the full filtered block of the graphic equalizer.png" alt="Figure 9 — Bode plot for the full equalizer (bands combined)" width="31%"/>
+  <img src="docs/figures/Figure%2012%20Bode%20graph%20with%20R_2%200%25.png" alt="Figure 12 — Bode with R2 at 0%" width="31%"/>
+  <img src="docs/figures/Figure 13 Bode graph with 100%.R_2.png" alt="Figure 13 — Bode with R2 at 100%" width="31%"/>
 </p>
 
 <p align="center">
   <!-- Per‑band attenuation views -->
-  <img src="docs/figures/Figure_14_Bode_LowOnly.png" alt="Figure 14 — Low‑band attenuation" width="31%"/>
-  <img src="docs/figures/Figure_15_Bode_MidOnly.png" alt="Figure 15 — Mid‑band attenuation" width="31%"/>
-  <img src="docs/figures/Figure_16_Bode_HighOnly.png" alt="Figure 16 — High‑band attenuation" width="31%"/>
+  <img src="docs/figures/Figure%2014%20Bode%20Graph%20for%20Low%20Frequency%20Attenuation.png" alt="Figure 14 — Low‑band attenuation" width="31%"/>
+  <img src="docs/figures/Figure%2015%20Bode%20Graph%20for%20Mid%20Frequency%20Attenuation.png" alt="Figure 15 — Mid‑band attenuation" width="31%"/>
+  <img src="docs/figures/Figure%2016%20Bode%20Graph%20for%20High%20Frequency%20Attenuation.png" alt="Figure 16 — High‑band attenuation" width="31%"/>
 </p>
 
 > **Tip:** Keep image widths at \~31% for a clean 3‑column grid on desktop while gracefully stacking on mobile.
